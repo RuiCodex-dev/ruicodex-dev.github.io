@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="272" viewBox="0 0 980 272" role="img" aria-label="Terminal: fetching app-ads.txt from ruicodex-dev.github.io returns the AdMob seller line with HTTP 200 and text/plain">
+<title>Fetching app-ads.txt from the live site</title>
+<style>
+.o{animation:show .25s ease-out both}@keyframes show{from{opacity:0}to{opacity:1}}
+#r0{animation:type0 1.40s 0.40s steps(50) both}@keyframes type0{from{width:0}to{width:442px}}#r3{animation:type3 2.38s 2.67s steps(85) both}@keyframes type3{from{width:0}to{width:748px}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect width="980" height="272" rx="14" fill="#0a1128"/>
+<rect x=".5" y=".5" width="979" height="271" rx="14" fill="none" stroke="#00e0b0" stroke-opacity=".25"/>
+<path d="M0 14a14 14 0 0 1 14-14h952a14 14 0 0 1 14 14v26H0z" fill="#111c3a"/>
+<circle cx="24" cy="20" r="6" fill="#ff5f57"/><circle cx="44" cy="20" r="6" fill="#febc2e"/><circle cx="64" cy="20" r="6" fill="#28c840"/>
+<text x="490.0" y="25" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="13" fill="#9fb3c8">bash: live check of the root site</text>
+<g font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="14.5"><text x="28" y="78" fill="#00e0b0" font-weight="700">$</text><g clip-path="url(#c0)"><text x="48" y="78" fill="#e8f4f2">curl -s https://ruicodex-dev.github.io/app-ads.txt</text></g><defs><clipPath id="c0"><rect id="r0" x="48" y="60" height="26" width="442"/></clipPath></defs><text class="o" style="animation-delay:2.15s" x="28" y="108" fill="#cfe0ea" font-weight="400">google.com, pub-4279687677493267, DIRECT, f08c47fec0942fa0</text><text x="28" y="168" fill="#00e0b0" font-weight="700">$</text><g clip-path="url(#c3)"><text x="48" y="168" fill="#e8f4f2">curl -sI https://ruicodex-dev.github.io/app-ads.txt | grep -iE &quot;^(HTTP|content-type)&quot;</text></g><defs><clipPath id="c3"><rect id="r3" x="48" y="150" height="26" width="748"/></clipPath></defs><text class="o" style="animation-delay:5.40s" x="28" y="198" fill="#00e0b0" font-weight="700">HTTP/1.1 200 OK</text><text class="o" style="animation-delay:5.62s" x="28" y="228" fill="#cfe0ea" font-weight="400">Content-Type: text/plain; charset=utf-8</text></g>
+</svg>
